@@ -79,7 +79,8 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Workout app aimed for peer-to-peer training",
+    title:
+      "Workout app aimed for peer-to-peer training developed as part of my CS Senior Project",
     des: "On a bike ride with a friend? With this app you can monitor each others heart rate and speed to elevate each other's performance.",
     img: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
