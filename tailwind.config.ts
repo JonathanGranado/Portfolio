@@ -1,5 +1,4 @@
 import type { Config } from "tailwindcss";
-import { TypewriterEffect } from "./components/ui/typewriter-effect";
 
 const svgToDataUri = require("mini-svg-data-uri");
 
