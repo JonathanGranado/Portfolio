@@ -75,14 +75,14 @@ export const projects = [
     title: "Compiler for a syntax-similar language to Java",
     des: "A compilter that generates Java byte code from a syntax-similar language to Java. The compiler consists of a Lexer, Parser, Type Checker, and Code Generator.",
     iconLists: ["./java-svgrepo-com.svg"],
-    img: "./p1.svg",
+    img: "./programming-monitor-svgrepo-com.svg",
   },
   {
     id: 2,
     title:
       "Workout app aimed for peer-to-peer training developed as part of my CS Senior Project",
     des: "On a bike ride with a friend? With this app you can monitor each others heart rate and speed to elevate each other's performance.",
-    img: "./p2.svg",
+    img: "./cycle-cycling-cyclist-svgrepo-com.svg",
     iconLists: [
       "./next.svg",
       "./tail.svg",
@@ -95,7 +95,7 @@ export const projects = [
     id: 3,
     title: "College major quiz",
     des: "A react based app which could help narrow down which major is best given your interests",
-    img: "./p3.svg",
+    img: "./quiz-on-computer-with-question-signs-around-svgrepo-com.svg",
     iconLists: ["./re.svg", "./tail.svg", "./ts.svg", "./three.svg", "./c.svg"],
   },
 ];
@@ -106,21 +106,21 @@ export const workExperience = [
     title: "Software Engineer - Microsoft",
     desc: "Under the load balancing team of Substrate Core, helping to maintain and improve distributed systems.",
     className: "md:col-span-2",
-    thumbnail: "./exp1.svg",
+    thumbnail: "./microsoft-svgrepo-com.svg",
   },
   {
     id: 2,
     title: "Software Engineer Intern - Microsoft",
     desc: "Learned how to create Window applications with C++ Win32 and developed a new touch screen animation for my team. ",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "./exp2.svg",
+    thumbnail: "./microsoft-svgrepo-com.svg",
   },
   {
     id: 3,
     title: "Software Engineer Co-op - GE Appliances",
     desc: "Worked with the Android team to help create a mobile app to ease testing of appliances, being able to connect to them via the app. Learned how to develop in Kotlin and how to use C for embedded sytems. ",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "./exp3.svg",
+    thumbnail: "./general-electric-logo-svgrepo-com.svg",
   },
 ];
 
