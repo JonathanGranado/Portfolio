@@ -13,7 +13,7 @@ export const gridItems = [
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/b1.svg",
+    img: "./b1.svg",
     spareImg: "",
   },
   {
@@ -44,7 +44,7 @@ export const gridItems = [
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
-    img: "/grid.svg",
+    img: "./grid.svg",
     spareImg: "/b4.svg",
   },
 
@@ -54,7 +54,7 @@ export const gridItems = [
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/b5.svg",
+    img: "./b5.svg",
     spareImg: "/grid.svg",
   },
   {
@@ -75,21 +75,21 @@ export const projects = [
     title: "Compiler for a syntax-similar language to Java",
     des: "A compilter that generates Java byte code from a syntax-similar language to Java. The compiler consists of a Lexer, Parser, Type Checker, and Code Generator.",
     iconLists: ["/java-svgrepo-com.svg"],
-    img: "/p1.svg",
+    img: "./p1.svg",
   },
   {
     id: 2,
     title:
       "Workout app aimed for peer-to-peer training developed as part of my CS Senior Project",
     des: "On a bike ride with a friend? With this app you can monitor each others heart rate and speed to elevate each other's performance.",
-    img: "/p2.svg",
+    img: "./p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
   },
   {
     id: 3,
     title: "College major quiz",
     des: "A react based app which could help narrow down which major is best given your interests",
-    img: "/p3.svg",
+    img: "./p3.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
   },
 ];
@@ -131,31 +131,31 @@ export const companies = [
   {
     id: 1,
     name: "cloudinary",
-    img: "/cloud.svg",
+    img: "./cloud.svg",
     nameImg: "/cloudName.svg",
   },
   {
     id: 2,
     name: "appwrite",
-    img: "/app.svg",
+    img: "./app.svg",
     nameImg: "/appName.svg",
   },
   {
     id: 3,
     name: "HOSTINGER",
-    img: "/host.svg",
+    img: "./host.svg",
     nameImg: "/hostName.svg",
   },
   {
     id: 4,
     name: "stream",
-    img: "/s.svg",
+    img: "./s.svg",
     nameImg: "/streamName.svg",
   },
   {
     id: 5,
     name: "docker.",
-    img: "/dock.svg",
+    img: "./dock.svg",
     nameImg: "/dockerName.svg",
   },
 ];
@@ -187,10 +187,10 @@ export const workExperience = [
 export const socialMedia = [
   {
     id: 1,
-    img: "/git.svg",
+    img: "./git.svg",
   },
   {
     id: 3,
-    img: "/link.svg",
+    img: "./link.svg",
   },
 ];
