@@ -49,11 +49,11 @@ const Hero = () => {
             className="text-center justify-center w-fit-content text-2xl sm:text-3xl
                     md:text-4xl lg:text-5xl text-blue-100 font-bold"
             sequence={[
-              "I am a Software Engineer",
+              "I am a Software Engineer 2",
               1000,
-              "I am a novice Frontend Developer",
+              "I build reliable systems at scale",
               1000,
-              "I am a Full time Backend Engineer",
+              "I'm passionate about engineering for impact",
               1000,
             ]}
             speed={10}
@@ -65,9 +65,7 @@ const Hero = () => {
             className="text-center md:tracking-wider justify-center
                 mb-4 mt-4 text-xs sm:text-sm md:text-lg lg:text-2xl text-blue-100 pt-4 pb-4"
           >
-            Hi, I&apos;m Jonathan, a SWE based in Seattle, WA. A little more
-            about me; I graduated from the University of Florida in August 2023
-            with a degree in Computer Science.
+            Hi, I&apos;m Jonathan, a Software Engineer based in Seattle, WA. CS grad from UF (2023). At Microsoft, I focus on efficient and reliable engineering for large-scale systems, ensuring confidence in workload management signals that drive infrastructure decisions globally. Passionate about applying software engineering to solve real-world problems in healthcare and AI.
           </p>
           <a href="#about">
             <MagicButton

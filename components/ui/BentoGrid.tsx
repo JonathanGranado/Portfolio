@@ -1,8 +1,10 @@
+"use client";
+
 import { useState } from "react";
+import dynamic from "next/dynamic";
 import { IoCopyOutline } from "react-icons/io5";
 
-// Also install this npm i --save-dev @types/react-lottie
-import Lottie from "react-lottie";
+const Lottie = dynamic(() => import("lottie-react"), { ssr: false });
 
 import { cn } from "@/lib/utils";
 
@@ -52,8 +54,8 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-  const leftLists = ["C", "C#", "Typescript", "C++"];
-  const rightLists = ["Java", "NextJS", "KQL", "Python"];
+  const leftLists = ["C", "C++", "C#", "Java"];
+  const rightLists = ["Python", "KQL", "Cosmos", "Azure Data Factory"];
 
   const [copied, setCopied] = useState(false);
 
@@ -178,14 +180,10 @@ export const BentoGridItem = ({
                 }
               >
                 <Lottie
-                  options={{
-                    loop: copied,
-                    autoplay: copied,
-                    animationData: animationData,
-                    rendererSettings: {
-                      preserveAspectRatio: "xMidYMid slice",
-                    },
-                  }}
+                  animationData={animationData}
+                  loop={copied}
+                  autoplay={copied}
+                  className="w-full h-full"
                 />
               </div>
 

@@ -8,6 +8,7 @@ import Footer from "@/components/Footer";
 import Experience from "@/components/Experience";
 import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
+import CodingProblem from "@/components/CodingProblem";
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
         <Grid />
         <RecentProjects />
         <Experience />
+        <CodingProblem />
         <Footer />
       </div>
     </main>
